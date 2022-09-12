@@ -8,6 +8,9 @@
   .second_prg {
     font-size: 16px;
   }
+  .card_title {
+    font-size: 23px;
+  }
 }
 @media screen and (max-width: 910px) {
   .main_title,
@@ -19,10 +22,25 @@
   .second_prg {
     font-size: 15px;
   }
+  .w-25 {
+    width: 30%;
+  }
+  .w-33 {
+    width: 48%;
+  }
+  .card_title {
+    font-size: 23px;
+  }
 }
 @media screen and (max-width: 769px) {
   .container {
     width: 95%;
+  }
+  .w-20 {
+    width: 30%;
+  }
+  .w-25 {
+    width: 45%;
   }
 }
 
@@ -46,6 +64,9 @@
   .test {
     margin-top: 50px;
   }
+  .w-33 {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 550px) {
   nav {
@@ -53,6 +74,12 @@
   }
   .menu_btn {
     display: block;
+  }
+  .w-20 img {
+    width: 100%;
+  }
+  .w-25 {
+    width: 100%;
   }
 }
 @media screen and (min-width: 450px) and (max-width: 650px) {
